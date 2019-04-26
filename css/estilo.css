@@ -1,0 +1,73 @@
+body {
+    background-color: #0984e3;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar e logo */
+
+#mainNav {
+    color: #fff;
+    font-size: 20px;
+	font-weight: 100;
+}
+
+#mainNav .nav-link {
+    color:#fff;
+}
+
+#mainNav .nav-link:hover {
+    color:#74b9ff;
+   
+}
+
+
+/* Display Container */
+
+.display-container {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    max-width: 100px;
+    border-radius: 15px;
+    height: 100px;
+    margin: auto;
+    margin-top: 160px;
+    background-color: #2d3436;
+    font-weight: 300;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#myKeyCode {
+    font-size: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #55efc4;
+    font-weight: 300;
+}
+
+h5 a {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    color: darkgray;
+    font-weight: 300;
+}
+
+h5 a:hover {
+    color: #fff;
+}
+
+
+.contato-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 210px;
+}
+
+.contato-footer {
+    margin-top: 300px;
+}
