@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 /* Navbar e logo */
 
 #mainNav {
@@ -65,9 +66,39 @@ h5 a:hover {
 .contato-container {
     display: flex;
     justify-content: center;
-    margin-top: 210px;
 }
 
-.contato-footer {
-    margin-top: 300px;
+.contato-container .contato-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 160px;
 }
+
+.contato-container .contato-icons > div {
+   
+    flex: 1;
+    margin: 30px;
+}
+
+.fab {
+    color: #81ecec;
+    transition: color 0.5s ease;
+}
+
+.fab:hover {
+    color: #d63031;
+    cursor: pointer;
+}
+
+
+.titulo {
+    margin-top: 40px;
+}
+
+.col p {
+    margin-top: 15px;
+    line-height: 1.5;
+    color: #dfe6e9;
+    font-weight: 300;
+}
+
