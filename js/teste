@@ -1,0 +1,19 @@
+if (event.shiftKey) {
+        myLetter.textContent = "Shift";
+    }
+
+    if (event.ctrlKey) {
+        myLetter.textContent = "Ctrl";
+    }
+
+    if (event.altKey) {
+        myLetter.textContent = "Alt";
+    }
+
+    if (event.keyCode == 32) {
+        myLetter.textContent = "Barra de espaço";
+    }
+
+    if (event.keyCode == 13) {
+        myLetter.textContent = "Enter";
+    }
